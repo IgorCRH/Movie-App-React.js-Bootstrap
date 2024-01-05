@@ -31,7 +31,7 @@ class App extends React.Component {
 
   buscarFilmes = async () => {
     try {
-      const response = await fetch(`http://www.omdbapi.com/?apikey=f3636e4d&s=${this.state.searchTerm}`);
+      const response = await fetch(`http://www.omdbapi.com/?apikey=SUACHAVEOMBDAQUI&s=${this.state.searchTerm}`);
       const data = await response.json();
 
       if (data.Search) {
