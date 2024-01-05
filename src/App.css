@@ -1,0 +1,86 @@
+body {
+  background: #326fa8;
+  color: #ffffff;
+}
+
+.Principal {
+  background: #326fa8;
+  color: #ffffff;
+}
+
+.lista-filmes {
+  display: flex;
+  gap: 5px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.filmeapp > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.image-container {
+  position: relative;
+  flex-shrink: 0; 
+  transition: transform 0.2s;
+  overflow: hidden;
+  width: 200px;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+  opacity: 0.8;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(7, 56, 135, 0.8);
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 25px;
+  padding: 15px;
+  width: 100%;
+}
+
+.texto-favoritos {
+  font-size: 16px;
+}
+
+.remocao-favoritos {
+  font-size: 16px;
+}
+
+button {
+  background-color: #073887;
+  color: white;
+  border: none;
+  border-radius: 20px; 
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  background-color: #3e74c9; 
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px; 
+}
+
+input[type="text"]:focus {
+  background-color: #ffffff;
+  color: #3e74c9; 
+  outline: none;
+  box-shadow: 0 0 5px #4CAF50;
+}
+
