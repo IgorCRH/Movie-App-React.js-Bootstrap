@@ -10,3 +10,11 @@ Na pasta do projeto, realizar o comando:
 ### `npm start`
 
 Verifique em [http://localhost:3000](http://localhost:3000).
+
+Vídeo:
+
+
+
+https://github.com/IgorCRH/Movie-App-React.js-Bootstrap/assets/125159948/5ced5636-2d79-4539-8f00-b53b0b9de174
+
+
